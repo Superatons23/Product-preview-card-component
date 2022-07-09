@@ -119,17 +119,20 @@ body {
 
 @media (min-width: 820px) {
   .card {
-    width: 35rem;
+    width: 40rem;
     display: flex;
     flex-direction: row;
   }
-
+  .card-body {
+    padding: 22px 30px 23.5px 30px;
+  }
   .img-top {
     background-image: url(../images/image-product-desktop.jpg);
     height: 29rem;
     width: 100%;
     background-size: cover;
     border-radius: 1rem 0 0 1rem;
+    flex-basis: 50%;
   }
   .card-body {
     flex-basis: 50%;
